@@ -14,3 +14,6 @@ Car.prototype.break = function () {
   this.speed -= 5;
   console.log(this.speed);
 };
+
+const car1 = new Car('BMW', 120);
+const car2 = new Car('Marcedes', 95);
