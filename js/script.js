@@ -17,3 +17,35 @@ Car.prototype.break = function () {
 
 const car1 = new Car('BMW', 120);
 const car2 = new Car('Marcedes', 95);
+
+car1.accelerate();
+car1.accelerate();
+car1.accelerate();
+car1.accelerate();
+car1.accelerate();
+car1.accelerate();
+console.log();
+
+car1.break();
+car1.break();
+car1.break();
+car1.break();
+car1.break();
+car1.break();
+console.log();
+
+car2.accelerate();
+car2.accelerate();
+car2.accelerate();
+car2.accelerate();
+car2.accelerate();
+car2.accelerate();
+console.log();
+
+car2.break();
+car2.break();
+car2.break();
+car2.break();
+car2.break();
+car2.break();
+console.log();
